@@ -1,2 +1,2 @@
 # JavaScript-Beyond-Basics
-Trying to master and learn about JavaScript!
+Trying to master JavaScript!
