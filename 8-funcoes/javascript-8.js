@@ -6,17 +6,21 @@ chamando a mesma depois.
 
 */
 
-let pessoaAcena = true;
+let pessoaAcena = true || false;
 let acenarParaEla = ' Você diz olá e com um sorriso no rosto acena! ';
 let naoAcenarParaEla = ' * Você fica quieto(a)... * ';
 
-function acenarParaAlguem (){
-    if (pessoaAcena = true){
+function acenarParaAlguem (pessoaAcena){
+    if (pessoaAcena){
         console.log(acenarParaEla);
     } else {
         console.log(naoAcenarParaEla);
     }
 }
 
-acenarParaAlguem();
+console.log('Alguém acenou para você:')
+acenarParaAlguem(true);
+
+console.log('Se a pessoa te ignorou:')
+acenarParaAlguem(false);
 
