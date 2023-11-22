@@ -23,7 +23,9 @@ acenarParaAlguem(true);
 console.log('Se a pessoa te ignorou:')
 acenarParaAlguem(false);
 
-//Existe uma forma mais limpa de ser feito com TypeScript:
+/*
+
+Existe uma forma mais limpa de ser feito com TypeScript:
 
 function acenarParaAlguem(pessoaAcena: boolean = true){
     if(pessoaAcena)
@@ -31,3 +33,5 @@ function acenarParaAlguem(pessoaAcena: boolean = true){
 
     return console.log(naoAcenarParaEla)
 }
+
+*/
