@@ -6,7 +6,6 @@ chamando a mesma depois.
 
 */
 
-let pessoaAcena;
 let acenarParaEla = ' Você diz olá e com um sorriso no rosto acena! ';
 let naoAcenarParaEla = ' * Você fica quieto(a)... * ';
 
